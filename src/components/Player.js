@@ -121,6 +121,7 @@ const Player = ({
           onClick={() => skipTrackHandler("skip-forward")}
         />
         <FontAwesomeIcon
+          className="volume"
           onClick={() => setActiveVolume(!activeVolume)}
           icon={faVolumeDown}
         />
