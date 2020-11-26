@@ -1,0 +1,31 @@
+nav {
+  min-height: 10vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  button {
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    border: 2px solid black;
+    padding: 0.5rem;
+    transition: all 0.3 ease;
+    font-size: larger;
+    &:hover {
+      background: black;
+      color: #aed0b3;
+    }
+  }
+  h1 {
+    text-decoration: underline #aed0b3;
+    text-decoration-thickness: 0.2em;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  nav {
+    button {
+      z-index: 10;
+    }
+  }
+}
