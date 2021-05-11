@@ -1,4 +1,4 @@
-# Low-Fidelity - Low-fi / Chilled Music Player
+# Low-Fidelity - A Low-fi / Chilled Music Player to code to!
 [Link to live demo](https://jamie-chandler.github.io/react-music-player/)
 
 ### What Is The Project?
